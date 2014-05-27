@@ -25,10 +25,7 @@ namespace BilSimser.GeoJson.Tests
         [Test]
         public void blank_document_throws_xml_exception()
         {
-            Assert.Throws<XmlException>(delegate 
-            {
-                GeoJsonConvert.Convert(string.Empty);
-            });
+            Assert.Throws<XmlException>(() => GeoJsonConvert.Convert(string.Empty));
         }
 
         [Test]
