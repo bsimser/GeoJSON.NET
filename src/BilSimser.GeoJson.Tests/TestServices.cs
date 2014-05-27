@@ -6,7 +6,7 @@ namespace BilSimser.GeoJson.Tests
 {
     public class TestServices
     {
-        public static void CreateTextFile(string resourceName, string fileName)
+        public static void CreateFileFromResource(string resourceName, string fileName)
         {
             var assembly = Assembly.GetExecutingAssembly();
             var stream = assembly.GetManifestResourceStream(resourceName);

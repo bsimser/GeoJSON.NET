@@ -12,7 +12,7 @@ namespace BilSimser.GeoJson.Tests
         {
             const string fileName = "borabora.kml";
             var path = Path.Combine(Path.GetTempPath(), fileName);
-            TestServices.CreateTextFile("BilSimser.GeoJson.Tests.Data.borabora.kml", fileName);
+            TestServices.CreateFileFromResource("BilSimser.GeoJson.Tests.Data.borabora.kml", fileName);
 
             var input = TestServices.ReadFile(fileName);
             var result = GeoJsonConvert.Convert(input);

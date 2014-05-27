@@ -50,15 +50,24 @@ namespace BilSimser.GeoJson.GeoJson
             return fc;
         }
 
-        private Feature GetPlacemark(XmlElement node)
+        private Feature GetPlacemark(XmlElement root)
         {
-            var geoms = GetGeometry(node);
+            var geoms = GetGeometry(root);
             var properties = new List<KeyValuePair<string, object>>();
-            var extendedData = GetOne(node, "ExtendedData");
+            var extendedData = GetOne(root, "ExtendedData");
             if (geoms.Count == 0) return new Feature();
 
-            // TODO
-            // if description
+            var name = NodeVal(GetOne(root, "name"));
+            if (name != null)
+            {
+                properties.Add(new KeyValuePair<string, object>("name", name));
+            }
+
+            var description = NodeVal(GetOne(root, "description"));
+            if (description != null)
+            {
+                properties.Add(new KeyValuePair<string, object>("description", description));
+            }
 
             // TODO
             // if timeSpan
