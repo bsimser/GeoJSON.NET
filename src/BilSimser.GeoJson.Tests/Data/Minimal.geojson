@@ -1,0 +1,18 @@
+﻿{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -151.752044,
+                    -16.443118
+                ]
+            },
+            "properties": {
+                "name": "Bora-Bora Airport"
+            }
+        }
+    ]
+}
