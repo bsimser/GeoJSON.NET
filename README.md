@@ -53,6 +53,7 @@ Not supported yet:
 * [toGeoJSON Online Converter](http://mapbox.github.io/togeojson/)
 * [GeoJSON Validator](http://geojsonlint.com/)
 * [GeoJSON Discussion List](http://lists.geojson.org/listinfo.cgi/geojson-geojson.org)
+* [Bing Maps V7 GeoJSON Module](http://bingmapsv7modules.codeplex.com/wikipage?title=GeoJSON%20Module)
 * [JSON Editor Online](http://www.jsoneditoronline.org/)
 * [James Newton-Kings' Json.NET Library](http://james.newtonking.com/json)
 * [JSON Schema for describing your JSON data format](http://json-schema.org/)
