@@ -58,11 +58,11 @@
     <EmbeddedResource Include="Data\Minimal.kml" />
     <EmbeddedResource Include="Data\Minimal.geojson" />
     <EmbeddedResource Include="Data\myoffice.kml" />
-    <None Include="Data\borabora.kml" />
-    <None Include="Data\GeoBuilding.kml" />
-    <None Include="Data\kernt7.kml" />
-    <None Include="Data\KML_Samples.kml" />
-    <None Include="Data\overlay.kml" />
+    <EmbeddedResource Include="Data\borabora.kml" />
+    <EmbeddedResource Include="Data\GeoBuilding.kml" />
+    <EmbeddedResource Include="Data\kernt7.kml" />
+    <EmbeddedResource Include="Data\KML_Samples.kml" />
+    <EmbeddedResource Include="Data\overlay.kml" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
