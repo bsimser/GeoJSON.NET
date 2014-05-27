@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Converter.cs" />
+    <Compile Include="GeoJsonConvert.cs" />
     <Compile Include="GeoJson\Feature.cs" />
     <Compile Include="GeoJson\FeatureCollection.cs" />
     <Compile Include="GeoJson\GeoJsonRootObject.cs" />

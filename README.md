@@ -2,28 +2,32 @@
 
 ## Convert KML to GeoJSON
 
-GeoJson.NET is a library to convert [KML](https://developers.google.com/kml/documentation/) files into [GeoJSON](http://www.geojson.org/) format for .NET
-
-It is based on the JavaScript project [toGeoJSON](http://mapbox.github.io/togeojson/)
+GeoJson.NET is a library to convert [KML](https://developers.google.com/kml/documentation/) files into [GeoJSON](http://www.geojson.org/) format for .NET. GeoJSON is a format for encoding a variety of geographic data structures. This project is based on the JavaScript project [toGeoJSON](http://mapbox.github.io/togeojson/)
 
 ## API
 
-### `Converter.Convert(xml)`
+### `GeoJsonConvert.Convert(xml)`
 
 Convert a KML document to GeoJSON. The first argument, `xml`, must be an XmlDocument
 document.
 
 The output is a string of GeoJSON data.
 
-### `Converter.Convert(input)`
+### `GeoJsonConvert.Convert(kml)`
 
-Convert a KML document to GeoJSON. The first argument, `input`, must be a System.String representation of a KML document.
+Convert a KML document to GeoJSON. The first argument, `kml`, must be a System.String representation of a KML document.
 
 The output is a string of GeoJSON data.
 
 ## KML
 
 Supported:
+
+* Polygon
+* ExtendedData
+* SimpleData
+
+In Progress:
 
 * Point
 * Polygon

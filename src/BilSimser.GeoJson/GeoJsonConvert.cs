@@ -9,14 +9,14 @@ namespace BilSimser.GeoJson
     /// can be validated by POSTing string to http://geojsonlint.com/validate.
     /// The converter is basically a C# port of https://github.com/mapbox/togeojson
     /// </summary>
-    public class Converter
+    public static class GeoJsonConvert
     {
         /// <summary>
         /// Converts a KML formatted string into a GeoJSON output
         /// </summary>
         /// <param name="input">The string represenation from a KML file</param>
         /// <returns>The contents of the KML file formatted to GeoJSON 1.0 format</returns>
-        public string Convert(string input)
+        public static string Convert(string input)
         {
             try
             {
@@ -35,7 +35,7 @@ namespace BilSimser.GeoJson
         /// </summary>
         /// <param name="doc">The XmlDocument represenatition from a KML file</param>
         /// <returns>The contents of the KML file formatted to GeoJSON 1.0 format</returns>
-        public string Convert(XmlDocument doc)
+        public static string Convert(XmlDocument doc)
         {
             try
             {

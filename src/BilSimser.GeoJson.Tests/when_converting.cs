@@ -14,9 +14,8 @@ namespace BilSimser.GeoJson.Tests
             var path = Path.Combine(Path.GetTempPath(), fileName);
             TestServices.CreateTextFile("BilSimser.GeoJson.Tests.Data.Minimal.kml", fileName);
 
-            var converter = new Converter();
             var input = TestServices.ReadFile(fileName);
-            var result = converter.Convert(input);
+            var result = GeoJsonConvert.Convert(input);
 
             Assert.IsNotEmpty(result);
 
@@ -28,8 +27,7 @@ namespace BilSimser.GeoJson.Tests
         {
             Assert.Throws<XmlException>(delegate 
             {
-                var converter = new Converter();
-                converter.Convert(string.Empty);
+                GeoJsonConvert.Convert(string.Empty);
             });
         }
 
@@ -39,8 +37,7 @@ namespace BilSimser.GeoJson.Tests
             Assert.Throws<XmlException>(delegate
             {
                 const string partial = "<kml><Placemark><name>Bora-Bora Airport</name></Point></Placemark></kml>";
-                var converter = new Converter();
-                converter.Convert(partial);
+                GeoJsonConvert.Convert(partial);
             });
         }
 
@@ -50,8 +47,7 @@ namespace BilSimser.GeoJson.Tests
             Assert.Throws<XmlException>(delegate
             {
                 const string partial = "<kml><Placemark>";
-                var converter = new Converter();
-                converter.Convert(partial);
+                GeoJsonConvert.Convert(partial);
             });
         }
     }
