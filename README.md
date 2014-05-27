@@ -58,3 +58,10 @@ Not supported yet:
 * [JSON Editor Online](http://www.jsoneditoronline.org/)
 * [James Newton-Kings' Json.NET Library](http://james.newtonking.com/json)
 * [JSON Schema for describing your JSON data format](http://json-schema.org/)
+
+## Other GeoJSON .NET projects
+
+* [SharpGeoJSON](https://github.com/SpiritMachine/SharpGeoJSON)
+* [DotNetGeoJson](https://github.com/Terradue/DotNetGeoJson)
+* [GeoJson](https://github.com/MannusEtten/GeoJson)
+* [GeoJSON.Net](https://github.com/jbattermann/GeoJSON.Net)
