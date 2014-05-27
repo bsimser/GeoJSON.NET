@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<GroundOverlay>
+  <name>Tahiti slide</name>
+  <description><![CDATA[Figure from 
+      <a href="http://www.agu.org/pubs/crossref/2006.../2005GC001003.shtml">
+      Hildenbrand,A., Gillot, P.Y. & Bonneville, A. (2006): Offshore evidence 
+      for a huge landslide on the northern flank of Tahiti Nui (French 
+      Polynesia), G3 </a>]]>
+</description>
+  <color>89ffffff</color>
+  <Icon>
+    <href>http://www-user.uni-bremen.de/~koelling/images/Tahitislide_hildenbrandetal_g3_2006.jpg</href>
+  </Icon>
+  <LatLonBox>
+    <north>-17.01850637325063</north>
+    <south>-17.65436253676821</south>
+    <east>-149.1167493298624</east>
+    <west>-149.9324692596666</west>
+  </LatLonBox>
+</GroundOverlay>
+</kml>

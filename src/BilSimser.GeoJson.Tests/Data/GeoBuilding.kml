@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Placemark>
+ <name>my office</name>
+ <LookAt>
+   <longitude>8.853193712983327</longitude>
+   <latitude>53.10919982492059</latitude>
+   <range>500</range>
+   <tilt>50</tilt>
+   <heading>230</heading>  
+ </LookAt>
+ <Style>
+   <PolyStyle>
+     <color>78ffffff</color>
+   </PolyStyle>
+ </Style>
+ <MultiGeometry>
+  <Polygon>
+   <extrude>1</extrude>
+   <altitudeMode>relativeToGround</altitudeMode>
+   <outerBoundaryIs>
+   <LinearRing>
+     <coordinates>
+        8.852856,53.109330,20 8.852975,53.109297,20 8.852455,53.108670,20  
+        8.852336,53.108706,20 8.852856,53.109330,20
+      </coordinates>
+    </LinearRing>
+    </outerBoundaryIs>
+  </Polygon>
+  <Polygon>
+   <extrude>1</extrude>
+   <altitudeMode>relativeToGround</altitudeMode>
+   <outerBoundaryIs>
+   <LinearRing>
+     <coordinates>
+        8.853087,53.109265,20  8.853200,53.109227,20  8.852688,53.108603,20
+        8.852562,53.108636,20  8.853087,53.109265,20
+      </coordinates>
+    </LinearRing>
+    </outerBoundaryIs>
+  </Polygon>
+  <Polygon>
+   <extrude>1</extrude>
+   <altitudeMode>relativeToGround</altitudeMode>
+   <outerBoundaryIs>
+   <LinearRing>
+     <coordinates>
+        8.852975,53.109297,20  8.853031,53.109285,23  8.852509,53.108651,23 
+        8.852455,53.108670,20  8.852975,53.109297,20
+      </coordinates>
+    </LinearRing>
+    </outerBoundaryIs>
+  </Polygon>
+  <Polygon>
+   <extrude>1</extrude>
+   <altitudeMode>relativeToGround</altitudeMode>
+   <outerBoundaryIs>
+   <LinearRing>
+     <coordinates>
+        8.853031,53.109285,23  8.853087,53.109265,20  8.852562,53.108636,20
+        8.852509,53.108651,23  8.853031,53.109285,23
+      </coordinates>
+    </LinearRing>
+    </outerBoundaryIs>
+  </Polygon>
+ </MultiGeometry>
+</Placemark>
+</Document>
+</kml>
