@@ -1,2 +1,2 @@
 language: csharp
-solution: ./src/GeoJson.sln
+solution: ./src/BilSimser.GeoJson.sln
