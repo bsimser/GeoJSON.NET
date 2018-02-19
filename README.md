@@ -8,6 +8,8 @@ GeoJSON is a format for encoding a variety of geographic data structures. The Ge
 
 This .NET project is based on the JavaScript project [toGeoJSON](http://mapbox.github.io/togeojson/).
 
+[![Build Status](https://travis-ci.org/bsimser/GeoJSON.NET.svg?branch=master)](https://travis-ci.org/bsimser/GeoJSON.NET)
+
 ## API
 
 ### `GeoJsonConvert.Convert(xml)`
