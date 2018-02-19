@@ -1,5 +1,7 @@
 # GeoJSON.NET
 
+[![Build Status](https://travis-ci.org/bsimser/GeoJSON.NET.svg?branch=master)](https://travis-ci.org/bsimser/GeoJSON.NET)
+
 ## Convert KML to GeoJSON
 
 GeoJson.NET is a library to convert [KML](https://developers.google.com/kml/documentation/) files into [GeoJSON](http://www.geojson.org/) format for .NET. 
@@ -7,8 +9,6 @@ GeoJson.NET is a library to convert [KML](https://developers.google.com/kml/docu
 GeoJSON is a format for encoding a variety of geographic data structures. The GeoJSON format is based on JavaScript Object Notation (JSON). For more detail about the GeoJSON format please see the [full specification](http://geojson.org/geojson-spec.html).
 
 This .NET project is based on the JavaScript project [toGeoJSON](http://mapbox.github.io/togeojson/).
-
-[![Build Status](https://travis-ci.org/bsimser/GeoJSON.NET.svg?branch=master)](https://travis-ci.org/bsimser/GeoJSON.NET)
 
 ## API
 
